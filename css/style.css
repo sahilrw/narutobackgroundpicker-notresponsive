@@ -1,0 +1,93 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* h1, h2{ */
+  /* text-align: center;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 120px;
+  height: 390px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(47, 45, 45);
+}
+li{
+  width: 94px;
+  height: 60px;
+  border: 2px solid white;
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body > main {
+  display: flex;
+  flex-direction: row;
+  width: 2200px;
+  height: 100vh;
+  padding: 30px 30px;
+  margin: 0;
+  position: fixed;
+  background: red;
+  left: 63%;
+}
+
+img {
+  height: 600px;
+  width: 700px;
+  border: 10px solid black;
+}
+
+body {
+  background-image: url(/img/download.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 200em 170em;
+}
+
+div {
+  background-image: url(/img/download.png);
+  background-size: 170em 210em;
+  height: 170em;
+  width: 210em;
+  /* border: 10px solid black; */
+  background-repeat: no-repeat;
+  margin: 240px 530px;
+  padding: 50px;
+}
+section {
+  position: relative;
+}
+
+img:hover {
+  transform: rotate(20deg);
+  cursor: pointer;
+}
+
+img {
+  transition: all .2s ease-in-out;
+  max-width: 100vmin;
+  max-height: 70vmin;
+  border: 10px solid white;
+}
